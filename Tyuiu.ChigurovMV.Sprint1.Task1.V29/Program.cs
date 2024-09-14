@@ -26,13 +26,13 @@ namespace Tyuiu.ChigurovMV.Sprint1.Task1.V29
 
             double a, b, c;
 
-            Console.WriteLine("Введите значение a:");
+            Console.WriteLine("Введите значение A:");
             a = Convert.ToDouble(Console.ReadLine());
 
-            Console.WriteLine("Введите значение b:");
+            Console.WriteLine("Введите значение B:");
             b = Convert.ToDouble(Console.ReadLine());
             
-            Console.WriteLine("Введите значение c:");
+            Console.WriteLine("Введите значение C:");
             c = Convert.ToDouble(Console.ReadLine());
 
             Console.WriteLine("***************************************************************************");
