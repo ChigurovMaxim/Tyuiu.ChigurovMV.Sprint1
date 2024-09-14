@@ -1,6 +1,6 @@
-using Tyuiu.ChigurovMV.Sprint1.Task0.V0.Lib;
+using Tyuiu.ChigurovMV.Sprint1.Task0.V20.Lib;
 
-namespace Tyuiu.ChigurovMV.Sprint1.Task0.V0.Test
+namespace Tyuiu.ChigurovMV.Sprint1.Task0.V20.Test
 {
     [TestClass]
     public class DataServiceTest
@@ -10,7 +10,7 @@ namespace Tyuiu.ChigurovMV.Sprint1.Task0.V0.Test
         {
             DataService ds = new DataService();
             var res = ds.Calculate();
-            Assert.AreEqual(2, res);
+            Assert.AreEqual(13, res);
 
         }
     }
