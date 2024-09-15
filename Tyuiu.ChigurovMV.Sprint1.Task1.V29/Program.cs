@@ -28,10 +28,8 @@ namespace Tyuiu.ChigurovMV.Sprint1.Task1.V29
 
             Console.WriteLine("Введите значение A:");
             a = Convert.ToDouble(Console.ReadLine());
-
             Console.WriteLine("Введите значение B:");
             b = Convert.ToDouble(Console.ReadLine());
-            
             Console.WriteLine("Введите значение C:");
             c = Convert.ToDouble(Console.ReadLine());
 
