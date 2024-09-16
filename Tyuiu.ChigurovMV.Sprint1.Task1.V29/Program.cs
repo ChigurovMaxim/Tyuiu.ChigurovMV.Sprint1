@@ -1,5 +1,4 @@
 ﻿using Tyuiu.ChigurovMV.Sprint1.Task1.V29.Lib;
-
 namespace Tyuiu.ChigurovMV.Sprint1.Task1.V29
 {
     internal class Program
@@ -7,7 +6,6 @@ namespace Tyuiu.ChigurovMV.Sprint1.Task1.V29
         static void Main(string[] args)
         {
             DataService ds = new DataService();
-
             Console.Title = "Спринт #1 | Выполнил: Чигуров М. В. | ПКТб-24-1";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #1                                                               *");
@@ -28,8 +26,10 @@ namespace Tyuiu.ChigurovMV.Sprint1.Task1.V29
 
             Console.WriteLine("Введите значение A:");
             a = Convert.ToDouble(Console.ReadLine());
+
             Console.WriteLine("Введите значение B:");
             b = Convert.ToDouble(Console.ReadLine());
+
             Console.WriteLine("Введите значение C:");
             c = Convert.ToDouble(Console.ReadLine());
 
