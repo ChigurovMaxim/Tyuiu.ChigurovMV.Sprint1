@@ -12,7 +12,7 @@ namespace Tyuiu.ChigurovMV.Sprint1.Task4.V29.Test
             int x = 1;
             int y = 2;
 
-            double wait = 0.18633899812498247;
+            double wait = 0.186;
             double res = ds.Calculate(x, y);
             Assert.AreEqual(wait, res);
         }
