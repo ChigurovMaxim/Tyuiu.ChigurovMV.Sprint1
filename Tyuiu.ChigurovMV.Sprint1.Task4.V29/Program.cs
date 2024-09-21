@@ -30,7 +30,7 @@ namespace Tyuiu.ChigurovMV.Sprint1.Task4.V29
             Console.WriteLine("* Введите Y:");
             y = Convert.ToDouble(Console.ReadLine());
 
-            double res = Math.Round(ds.Calculate(x, y),3);
+            double res = ds.Calculate(x, y);
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
